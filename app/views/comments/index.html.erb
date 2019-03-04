@@ -13,6 +13,7 @@
   </thead>
 
   <tbody>
+  <% require 'pry'; binding.pry %>
     <% @comments.each do |comment| %>
       <tr>
         <td><%= comment.link_id %></td>

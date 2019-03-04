@@ -9,11 +9,13 @@ gem 'uglifier', '>= 1.3.0'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'simple_form'
+gem 'pry'
 gem 'jquery-rails'
 gem 'devise', '~> 4.2'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'record_tag_helper', '~> 1.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
