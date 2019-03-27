@@ -14,6 +14,12 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'pry', '~> 0.12.2'
+gem 'coderay', '~> 1.1', '>= 1.1.2'
+gem 'method_source', '~> 0.9.2'
+gem 'rb-readline', '~> 0.5.5'
+gem 'rake', '~> 12.3', '>= 12.3.2'
+gem 'minitest', '~> 5.11', '>= 5.11.3'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end

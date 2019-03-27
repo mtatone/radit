@@ -3,6 +3,7 @@ class LinksController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show]
   # GET /links
   # GET /links.json
+  require 'pry'
   def index
     @links = Link.all
   end
@@ -56,6 +57,7 @@ class LinksController < ApplicationController
   def destroy
     @link.destroy
     respond_to do |format|
+      binding.pry
       format.html { redirect_to links_url, notice: 'Link was successfully destroyed.' }
       format.json { head :no_content }
     end
